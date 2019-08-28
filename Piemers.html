@@ -5,15 +5,10 @@
   </head>
   <body>
     <script type="text/javascript">
-        const a = 5;
-        let b = 3;
-        let pazinojums; 
-        if (a !== b) {
-             pazinojums = `${a} nav vienāds ar ${b}`;
-        } else {
-             pazinojums = a + " ir vienads ar " + b;
-        }
-        console.log(pazinojums)
-        </script>
+      function rinkis(r) {
+        return (r * 2).toExponential(0);
+      }
+      console.log(rinkis(87654321));
+    </script>
   </body>
 </html>
